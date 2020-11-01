@@ -59,7 +59,6 @@ filtkern = filtkern./sum(filtkern);
 filtkern = filtkern .* hann(length(filttime))';
 
 
-
 % inspect the filter kernel
 figure(2), clf
 subplot(211)
